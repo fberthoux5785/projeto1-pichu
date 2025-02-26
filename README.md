@@ -24,7 +24,7 @@ Modo Escuro (Dark Mode) para melhor experiência visual.
 ├── 📄 index.html\ 
 ├── 📄 styles.css\
 ├── 📄 script.js\ 
-├── 📄 README.md\ 
+├── 📄 README.md 
 
 
 
