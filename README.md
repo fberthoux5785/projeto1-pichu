@@ -20,10 +20,10 @@ Modo Escuro (Dark Mode) para melhor experiência visual.
 
 ## Estrutura do Projeto
  
-├── index.html\ 
-├── styles.css\
-├── script.js\ 
-├── README.md 
+ index.html\ 
+ styles.css\
+ script.js\ 
+ README.md 
 
 
 
