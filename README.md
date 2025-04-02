@@ -1,4 +1,4 @@
-# projeto1-pichu
+# PICHU
 
 
 ## Sobre o Projeto
