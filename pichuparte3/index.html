@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pichu - Ensino de Programação para Iniciantes">
+  <meta name="keywords" content="Felipe Berthoux de Oliveira Souza">
+  <title>Pichu</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div id="area-topo">
+    <div id="area-menu">
+      <b><a href="index.html" id="logo">PICHU</a></b>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+
+      <div id="menu-links" class="menu-links">
+        <a href="aboutus.html" class="menu">Quem Somos</a>
+        <a href="cursos.html" class="menu">Cursos</a>
+        <a href="desafios.html" class="menu">Desafios</a>
+        <a href="contato.html" class="menu">Contato</a>
+        <a href="wireframe.html" class="menu">Wireframe</a>
+        <button id="dark-mode-toggle" class="botao-dark">🌙</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-main">
+    <div id="area-principal-dir">
+      <img src="pichu.png" width="400" alt="Logo Pichu">
+    </div>
+    <div id="area-principal-esq">
+      <p class="frase-principal">Ensinando lógica,</p>
+      <p class="frase-principal">desenvolvendo futuros.</p><br><br><br>
+      <p class="frase-secundaria">Na Pichu, ajudamos você a dar os primeiros passos no mundo da programação.</p><br><br>
+      <p class="frase-secundaria">Acreditamos que aprender a programar pode ser divertido e transformador.</p>
+      <br><br><hr>
+    </div>
+  </div>
+
+  <section id="desafios" class="desafios-section">
+    <h2>Desafios Práticos</h2>
+    <p>Resolva desafios de programação e teste seus conhecimentos em tempo real.</p>
+    <button onclick="iniciarDesafio()" class="btn-primary">Iniciar Desafio</button>
+    <div id="resultado" class="resultado-box"></div>
+  </section>
+
+  <div id="area-rodape">
+    <p class="frase-principal">Transformando Aprendizado em Oportunidades!</p><br><br>
+    <p class="frase-secundaria">Com a Pichu, você aprende programação de forma simples, prática e divertida.</p><br><br><br><br>
+
+    <div class="imagem-container">
+      <figure>
+        <img src="https://www.sedex.com/app/uploads/2023/08/64cd23026642b.svg" alt="Didática Simples" width="120" class="imagem">
+        <figcaption class="legenda">Didática Simples</figcaption>
+      </figure>
+      <figure>
+        <img src="https://www.sedex.com/app/uploads/2023/08/64cd2269e9cd0.svg" alt="Praticidade" width="120" class="imagem">
+        <figcaption class="legenda">Praticidade</figcaption>
+      </figure>
+      <figure>
+        <img src="https://www.sedex.com/app/uploads/2023/08/64cd231a6133d.svg" alt="Comunidade" width="120" class="imagem">
+        <figcaption class="legenda">Comunidade</figcaption>
+      </figure>
+    </div><br><br><hr><br><br>
+
+    <div id="fundadores">
+      <p>Fundadores:</p>
+      <p>Felipe Berthoux de Oliveira Souza</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
